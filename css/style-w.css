@@ -1,0 +1,141 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+
+.cta-w{
+    
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../assets/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 0;
+    color: white;
+}
+
+.cta-w #left-half-w{
+    
+    width:30%;
+
+}
+
+.cta-w #right-half-w{
+    
+    width:30%;
+    font-size:large;
+    
+
+}
+
+.cta-w #left-half-w h3{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.cta-w #cta-link-w{
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+
+
+#portfolio-w {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+    top: 10px;
+    background-color: rgb(243, 245, 250);
+}
+
+#portfolio-w > h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    color: #37517e;
+    padding: 20px;
+    font-family: "Jost", sans-serif; 
+    margin-bottom: 20px;
+}
+
+#portfolio-w > h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+#portfolio-w > h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+#portfolio-w p{
+    margin-bottom: 20px;
+}
+
+#portfolio-w ul{
+    width: 30%;
+    margin-left:35%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio-w ul li{
+    width:5%;
+    color: #555;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#portfolio-w ul li:hover{
+    color:white;
+    background-color:#47b2e4;
+}
+
+.container-w {
+    padding: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.item-w {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-w {
+    display: flex;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    transition: 0.5s;
+    height: 220px;
+}
+
+.card-w img {
+    width:300px;
+    height:220px;
+    object-fit:cover;
+}
