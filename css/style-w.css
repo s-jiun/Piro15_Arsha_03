@@ -23,6 +23,13 @@ section {
 
 }
 
+.cta-w #left-half-w h3{
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
 .cta-w #right-half-w{
     
     width:30%;
@@ -31,16 +38,13 @@ section {
 
 }
 
-.cta-w #left-half-w h3{
-    font-size: larger;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
 
-.cta-w #cta-link-w{
+.cta-w #right-half-w #cta-link-w{
     color: white;
     border: 2px solid #fff;
     border-radius: 20px;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
 
@@ -100,10 +104,11 @@ section {
 }
 
 #portfolio-w ul li{
-    width:5%;
+    width:20%;
     color: #555;
     border: none;
-    border-radius: 20px;
+    border-radius: 20%;
+    text-align: center;
     font-weight: bold;
 }
 
