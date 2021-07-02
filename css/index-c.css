@@ -9,6 +9,8 @@
 }
 .header-container-c {
   position: relative;
+  position: fixed;
+  z-index:5;
   background: #fff;
   height: 65px;
   border-bottom: 1px solid #ddd;
@@ -149,6 +151,12 @@
 .header-c {
   padding: 15px 0;
   background-color: #37517e;
+  position:fixed;
+  top:65px;
+  left:0px;
+  width:100%;
+  z-index:5;
+  opacity:0.95;
 }
 .header-in-c {
   margin: 0 8%;
@@ -279,6 +287,7 @@
 }
 #container-for-bs-c {
   display: flex;
+  margin-top:128px;
   /* align-items: center;
   justify-content: center; */
 }

@@ -44,7 +44,7 @@
 }
 
 #why-us .item1-b p {
-  width: 650px;
+  width: 95%;
   font-family: "Open sans", sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -136,6 +136,28 @@ summary::before {
 
 .item2-b img {
   width: 100%;
+}
+
+@media screen and (max-width:1100px) {
+  #why-us {
+    height: 130vh;
+  }
+
+  #why-us .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #why-us .item2-b {
+    position: relative;
+    left: -1px;
+    width: 60%;
+  }
+
+  #why-us .item1-b {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 /* Skills Section */
@@ -295,6 +317,27 @@ summary::before {
   }
 }
 
+@media screen and (max-width:1100px) {
+  #skills {
+    height: 1000px;
+  }
+
+  #skills .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  #skills .item1-b {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  #skills .item2-b {
+    width: 100%;
+  }
+}
+
 /* Service Section */
 
 #services {
@@ -395,4 +438,28 @@ summary::before {
 
 #services .card:hover h3 {
   color: #47b2e4;
+}
+
+@media screen and (max-width:1200px) {
+  #services {
+    height: 180vh;
+  }
+
+  #services .card-collection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services>p {
+    width: 90%;
+  }
+
+  #services>div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #services .card {
+    width: 700px;
+  }
 }
