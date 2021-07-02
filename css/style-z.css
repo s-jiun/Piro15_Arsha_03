@@ -220,6 +220,7 @@
   border-radius: 50px;
   width: 178.88px;
   height: 48px;
+  cursor: pointer;
 }
 .form-group-z {
   margin-bottom: 20px;
@@ -229,6 +230,13 @@
   text-align: center !important;
 }
 
+form :active {
+  background: #e48e47;
+}
+
+form :active ~ * .error-message {
+  background: red;
+}
 #map {
   height: 300px;
   border: 0;
