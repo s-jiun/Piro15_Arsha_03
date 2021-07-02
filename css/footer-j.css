@@ -28,8 +28,9 @@ p {
   position: fixed;
   bottom: 50px;
   right: 50px;
+  animation: fadeout 1s;
   display: inline-block;
-  background: url(./images/up-arrow.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/up-arrow.png) #47b2e4 11px 11px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -38,6 +39,15 @@ p {
   text-align: center;
   width: 40px;
   height: 40px;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .newsletter-j {
@@ -152,7 +162,7 @@ nav li {
 
 nav li:first-child span:first-child {
   display: inline-block;
-  background: url(./images/twitter.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/twitter.png) #47b2e4 9px 9px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -165,7 +175,7 @@ nav li:first-child span:first-child {
 
 nav li:nth-child(2) span:first-child {
   display: inline-block;
-  background: url(./images/facebook.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/facebook.png) #47b2e4 9px 9px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -178,7 +188,7 @@ nav li:nth-child(2) span:first-child {
 
 nav li:nth-child(3) span:first-child {
   display: inline-block;
-  background: url(./images/instagram.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/instagram.png) #47b2e4 9px 9px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -191,7 +201,7 @@ nav li:nth-child(3) span:first-child {
 
 nav li:nth-child(4) span:first-child {
   display: inline-block;
-  background: url(./images/skype.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/skype.png) #47b2e4 9px 9px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -204,7 +214,7 @@ nav li:nth-child(4) span:first-child {
 
 nav li:last-child span:first-child {
   display: inline-block;
-  background: url(./images/linkedin.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/linkedin.png) #47b2e4 9px 9px no-repeat;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
