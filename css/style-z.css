@@ -82,6 +82,10 @@ li label div {
   display: none;
 }
 
+.collapse-after-z p {
+  padding-top: 10px;
+}
+
 #expand-toggle-1-z:checked ~ * .collapse-after-z {
   display: inline-block;
 }
@@ -90,10 +94,36 @@ li label div {
   display: none;
 }
 
-.collapse-after-z p {
-  padding-top: 10px;
+#expand-toggle-2-z:checked ~ * .collapse-after-z {
+  display: inline-block;
 }
 
+#expand-toggle-2-z:checked ~ * .collapse-before-z {
+  display: none;
+}
+
+#expand-toggle-3-z:checked ~ * .collapse-after-z {
+  display: inline-block;
+}
+
+#expand-toggle-3-z:checked ~ * .collapse-before-z {
+  display: none;
+}
+
+#expand-toggle-4-z:checked ~ * .collapse-after-z {
+  display: inline-block;
+}
+
+#expand-toggle-4-z:checked ~ * .collapse-before-z {
+  display: none;
+}
+#expand-toggle-5-z:checked ~ * .collapse-after-z {
+  display: inline-block;
+}
+
+#expand-toggle-5-z:checked ~ * .collapse-before-z {
+  display: none;
+}
 /** 지도 section css **/
 .contact-z {
   padding: 60px;
