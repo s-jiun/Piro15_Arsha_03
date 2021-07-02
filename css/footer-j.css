@@ -30,7 +30,7 @@ a {
   overflow: hidden;
 }
 
-.go-to-top-j {
+#go-to-top-j {
   position: fixed;
   bottom: 25px;
   right: 25px;
@@ -44,6 +44,10 @@ a {
   text-align: center;
   width: 40px;
   height: 40px;
+}
+
+#go-to-top-j:hover {
+  background-color: #6bc1e9;
 }
 
 .newsletter-j {
