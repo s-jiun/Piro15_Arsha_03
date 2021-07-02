@@ -20,22 +20,35 @@ section {
 
 .cta-w #left-half-w{
     
-    width:30%;
+    width:70%;
 
 }
 
 .cta-w #left-half-w h3{
-    font-size: larger;
+    font-family: Jost, sans-serif;
+    font-size: 28px;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    vertical-align: baseline;
+
+}
+
+.cta-w #left-half-w p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    vertical-align: baseline;
 }
 
 
+
 .cta-w #right-half-w{
-    
-    width:30%;
-    font-size:large;
-    
+    font-family: Jost, sans-serif;
+    width:20%;
+    font-size:16px;
+    text-align: center;
+    vertical-align: middle;
 
 }
 
@@ -43,11 +56,25 @@ section {
 .cta-w #right-half-w #cta-link-w{
     color: white;
     border: 2px solid #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     text-decoration: none;
     vertical-align: middle;
+    text-align: center;
+    font-weight: 500;
+    font-size:16px;
+    letter-spacing: 1px;
+    display:inline-block;
+    margin:10px;
+    padding: 12px 40px;
+    transition: 0.5s;
+    line-height:1.5;
 }
 
+.cta-w #right-half-w #cta-link-w:hover{
+    background-color:#47b2e4;
+    border:none;
+
+}
 
 
 #portfolio-w {
@@ -84,7 +111,7 @@ section {
 #portfolio-w > h2::after {
     content: "";
     position: absolute;
-    display: block;
+    display: block; 
     width: 40px;
     height: 3px;
     background: #47b2e4;
@@ -113,17 +140,10 @@ section {
     font-weight: bold;
 }
 
-#portfolio-w ul li:hover{
+#portfolio-w ul li:nth-child(3){
     color:white;
     background-color:#47b2e4;
 }
-
-.container-w {
-    padding: 20px;
-    width: 70%;
-    margin-left: 15%;
-}
-
 
 .item-w {
     display: flex;

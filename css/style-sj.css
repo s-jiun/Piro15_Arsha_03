@@ -50,13 +50,8 @@
   left: calc(50% - 20px);
 }
 
-.container-s {
-  padding: 20px;
-  width: 70%;
-  margin-left: 15%;
-  /* align-items: center; */
-}
-.container-s > p {
+#container-team > p,
+#container-pricing > p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -67,60 +62,194 @@
 }
 
 .member-s {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 20px;
+  display: flex;
   justify-content: center;
-  padding: 30px 10px;
+  padding: 10px 200px;
 }
 
 .member-s .card-s {
   display: flex;
+  position: relative;
   justify-content: space-between;
   padding: 30px;
+  width: 640px;
+  height: 230px;
   background-color: white;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   border-radius: 5px;
   transition: 0.5s;
+  margin-right: 15px;
 }
 
-.card-s .img-s {
+.member-s .card-s:hover {
+  top: -10px;
+  /* transition: top 2s; */
+}
+
+.member-s .card-s .img-s {
   max-width: 100%;
   width: 180px;
   border-radius: 50%;
 }
+.member-s .card-s .intro-s {
+  padding: 0 0 0 30px;
+}
 
-.card-s img {
+.member-s .card-s h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+}
+.card-s span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+.member-s .card-s span::before,
+.member-s .card-s span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: -3px;
+  left: 0;
+}
+
+.member-s .card-s p {
+  margin: 15px 0 0 0;
+  font-size: 15px;
+}
+.member-s .card-s img {
   width: 100%;
   clip-path: circle(50% at 50% 50%);
 }
-
-#pricing-s .card-s {
+.card-s .intro-s .social-s {
+  margin-top: 17px;
+}
+.card-s .intro-s .social-s a {
+  /* transition: ease-in-out 0.3s; */
+  align-items: center;
   display: inline-block;
-  width: 440px;
-  height: 100%;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #cbd6e9;
+  text-decoration: none;
+}
+.card-s .intro-s .social-s i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 8px 8px 8px 8px;
+  position: relative;
+}
+
+.card-s .intro-s .social-s a:hover {
+  background: #47b2e4;
+}
+.card-s .intro-s .social-s a:hover i {
+  color: white;
+}
+
+#pricing-s .cardP-s {
+  display: inline-block;
+  width: 420px;
+  height: 565px;
+  padding: 60px 40px;
   border-top: 4px solid #fff;
   box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
   justify-content: space-between;
   border-radius: 5px;
-  margin-left: 30px;
 }
-#second-card {
-  display: inline-block;
-  width: 440px;
-  height: 100%;
-  border-top: 4px solid blue;
-  box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
-  justify-content: space-between;
-  border-radius: 5px;
-  margin-left: 30px;
+.cardP-s h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+}
+.cardP-s h4 {
+  font-size: 48px;
+  color: #37517e;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 25px;
+}
+.cardP-s h4 sup {
+  font-size: 28px;
+  position: relative;
+  top: -0.5em;
+}
+.cardP-s h4 span {
+  color: #47b2e4;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+}
+#pricing-s .second-c {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 5px solid#47b2e4;
 }
 
-#pricing-s .container-s .row-s {
+#pricing-s #container-pricing .row-s {
+  display: flex;
+  justify-content: center;
+  padding: 30px 200px;
+}
+
+#started-s {
   display: inline-block;
-  text-align: center;
-  width: 100%;
-  height: 615px;
-  padding: 30px 10px;
+  margin-top: 20px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #47b2e4;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+  background-color: white;
+}
+
+#started-s:hover {
+  color: white;
+  background-color: #47b2e4;
+}
+.cardP-s ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  line-height: 20px;
+}
+.cardP-s li {
+  padding: 10px 0 10px 0px;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+.cardP-s li span {
+  margin-left: 10px;
+}
+.cardP-s i {
+  color: #28a745;
+}
+
+.cardP-s .no {
+  color: #ccc;
+}
+.cardP-s .no i {
+  color: #ccc;
+}
+.cardP-s .no span {
+  text-decoration: line-through;
+  margin-left: 13px;
+  font-weight: 550;
 }
