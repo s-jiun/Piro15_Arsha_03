@@ -1,3 +1,15 @@
+/* section:hover {
+  visibility: visible;
+  transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transition: transform .35s;
+  -o-transition: transform .35s;
+  -moz-transition: transform .35s;
+  -webkit-transition: transform .35s;
+} */
+
 /* Why us? Section */
 
 #why-us {
@@ -77,6 +89,10 @@
   line-height: 1.5;
 }
 
+#why-us .drop-box-header-b .fa-chevron-up {
+  visibility: hidden;
+}
+
 #why-us .drop-box-header-b:hover {
   color: #47b2e4;
 }
@@ -85,8 +101,12 @@
   color: #47b2e4;
 }
 
-#why-us .drop-box-header-b:checked i {
-  color: red;
+#why-us .drop-box-header-b:hover .fa-chevron-down {
+  display: none;
+}
+
+#why-us .drop-box-header-b:hover .fa-chevron-up {
+  visibility: visible;
 }
 
 details {
@@ -190,7 +210,7 @@ summary::before {
   height: 10px;
   background-color: #4668a2;
   animation-name: gauge1;
-  animation-duration: 1500ms;
+  animation-duration: 2200ms;
   animation-fill-mode: forwards;
 }
 
@@ -212,7 +232,7 @@ summary::before {
   height: 10px;
   background-color: #4668a2;
   animation-name: gauge2;
-  animation-duration: 1500ms;
+  animation-duration: 2200ms;
   animation-fill-mode: forwards;
 
 }
@@ -235,7 +255,7 @@ summary::before {
   height: 10px;
   background-color: #4668a2;
   animation-name: gauge3;
-  animation-duration: 1500ms;
+  animation-duration: 2200ms;
   animation-fill-mode: forwards;
 
 }
@@ -258,7 +278,7 @@ summary::before {
   height: 10px;
   background-color: #4668a2;
   animation-name: gauge4;
-  animation-duration: 1500ms;
+  animation-duration: 2200ms;
   animation-fill-mode: forwards;
 
 }
