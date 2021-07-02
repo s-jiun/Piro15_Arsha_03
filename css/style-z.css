@@ -253,7 +253,7 @@ li label div {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.contact-input-z button[type="submit"] {
+.contact-input-z button[type="button"] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -262,6 +262,7 @@ li label div {
   border-radius: 50px;
   width: 178.88px;
   height: 48px;
+  cursor: pointer;
 }
 .form-group-z {
   margin-bottom: 20px;
@@ -269,4 +270,12 @@ li label div {
 }
 .text-center-z {
   text-align: center !important;
+}
+
+form :active {
+  background: #e48e47;
+}
+
+form :active ~ * .error-message {
+  background: red;
 }
