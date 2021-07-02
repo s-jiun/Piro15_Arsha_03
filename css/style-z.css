@@ -42,9 +42,16 @@
   margin-bottom: 0;
 }
 
+.faq-List-z ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .faq-List-z li {
   display: list-item;
   text-align: -webkit-match-parent;
+  margin: 20px;
   padding: 20px;
   background: #fff;
   border-radius: 4px;
@@ -68,14 +75,30 @@
 }
 
 /** 지도 section css **/
+.contact-z {
+  padding: 60px;
+}
+
+.contact-content-z {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .info-z {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
   padding: 30px;
   background: #fff;
-  width: 100%;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
-  display: block;
+  display: inline-block;
+  margin-right: 27px;
+}
+#info-picture-z {
+  width: 451em;
+}
+#contact-inputUser-z {
+  width: 641em;
 }
 
 .contact-input-z {
@@ -98,7 +121,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  transition: all 0.3s ease-in-out;
 }
 
 .contact-z .info-z h4 {
@@ -134,6 +156,29 @@
   left: 0px;
   top: 0px;
 }
+
+.contact-input-z {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input-z .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.contact-input-z .row .row-form-z {
+  width: 50%;
+}
+#contact-Name {
+  margin-right: 20px;
+}
+
+#contact-Email {
+  margin-left: 20px;
+}
 .contact-input-z label {
   display: inline-block;
   font-size: 16px;
@@ -165,4 +210,13 @@
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  width: 178.88px;
+  height: 48px;
+}
+.form-group-z {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+.text-center-z {
+  text-align: center !important;
 }

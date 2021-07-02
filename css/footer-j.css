@@ -32,11 +32,11 @@ a {
 
 .go-to-top-j {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 25px;
+  right: 25px;
   display: inline-block;
-  background: url(../images/up-arrow.png) #47b2e4 11px 11px no-repeat;
-  background-size: 17px 17px;
+  background: url(../images/up-arrow.png) #47b2e4 13px 13px no-repeat;
+  background-size: 15px 15px;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -73,7 +73,12 @@ a {
   color: #37517e;
 }
 
-.email-box-j input[type="email"] {
+#input {
+  display: flex;
+  justify-content: center;
+}
+
+#input span {
   border: 0;
   padding: 4px 8px;
   width: 600px;
@@ -87,10 +92,16 @@ a {
   text-align: left;
 }
 
+.email-box-j input[type="email"] {
+  width: 90%;
+  height: 95%;
+  border: none;
+}
+
 .email-box-j input[type="submit"] {
   position: relative;
   height: 45px;
-  top: 0;
+  top: 30px;
   right: 40px;
   border: 0;
   background: none;
@@ -101,6 +112,11 @@ a {
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.email-box-j input[type="submit"]:hover {
+  background-color: #209dd8;
+  cursor: pointer;
 }
 
 .container2-j {
@@ -194,14 +210,30 @@ nav li {
   display: inline-block;
 }
 
-nav li:hover .hover {
-  background-color: black;
-  transition: 0.3s;
+nav li:first-child:hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(2):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(3):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(4):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:last-child:hover span:first-child {
+  background-color: #209dd8;
 }
 
 nav li:first-child span:first-child {
   display: inline-block;
-  background: url(../images/twitter.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/twitter.png) 9px 9px no-repeat;
+  background-color: #47b2e4;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -210,6 +242,7 @@ nav li:first-child span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 nav li:nth-child(2) span:first-child {
