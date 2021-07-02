@@ -68,62 +68,20 @@
   color: #47b2e4;
   text-decoration: none;
 }
-/** check시 블록 나오는 부분  **/
-/** faq 1번**/
-.expand-toggle-z {
+/** check시 블록 나오는 부분 못 짜는중ㅜㅜ zin**/
+/**#expand-toggle-z {
   display: none;
   background: #ddd;
+}**/
+
+.expandable {
+  visibility: hidden;
 }
 
-li label div {
-  display: inline;
-}
-.collapse-after-z {
-  display: none;
+#expand-toggle-z:checked ~ * .expandable {
+  visibility: visible;
 }
 
-.collapse-after-z p {
-  padding-top: 10px;
-}
-
-#expand-toggle-1-z:checked ~ * .collapse-after-z {
-  display: inline-block;
-}
-
-#expand-toggle-1-z:checked ~ * .collapse-before-z {
-  display: none;
-}
-
-#expand-toggle-2-z:checked ~ * .collapse-after-z {
-  display: inline-block;
-}
-
-#expand-toggle-2-z:checked ~ * .collapse-before-z {
-  display: none;
-}
-
-#expand-toggle-3-z:checked ~ * .collapse-after-z {
-  display: inline-block;
-}
-
-#expand-toggle-3-z:checked ~ * .collapse-before-z {
-  display: none;
-}
-
-#expand-toggle-4-z:checked ~ * .collapse-after-z {
-  display: inline-block;
-}
-
-#expand-toggle-4-z:checked ~ * .collapse-before-z {
-  display: none;
-}
-#expand-toggle-5-z:checked ~ * .collapse-after-z {
-  display: inline-block;
-}
-
-#expand-toggle-5-z:checked ~ * .collapse-before-z {
-  display: none;
-}
 /** 지도 section css **/
 .contact-z {
   padding: 60px;
@@ -155,7 +113,7 @@ li label div {
   width: 100%;
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
-  padding: 30px 30px 10px 30px;
+  padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
 }
@@ -182,10 +140,10 @@ li label div {
 }
 
 .contact-z .info-z p {
-  padding: 0 0 10px 15px;
   margin-bottom: 20px;
   font-size: 14px;
   color: #6182ba;
+  padding-left: 20px;
 }
 
 .contact-z .info-z p {
@@ -262,6 +220,7 @@ li label div {
   border-radius: 50px;
   width: 178.88px;
   height: 48px;
+  cursor: pointer;
 }
 .form-group-z {
   margin-bottom: 20px;
@@ -271,8 +230,15 @@ li label div {
   text-align: center !important;
 }
 
+form :active {
+  background: #e48e47;
+}
+
+form :active ~ * .error-message {
+  background: red;
+}
 #map {
   height: 300px;
   border: 0;
-  margin-top: 10px;
+  margin-top: 30px;
 }
