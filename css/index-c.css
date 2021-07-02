@@ -2,7 +2,7 @@
   color: #00a6eb;
 }
 .ho-c:hover {
-  background-color: #47b2e4;
+  color: #47b2e4;
 }
 .hovers-c:hover {
   background-color: #47b2e4;
@@ -151,26 +151,27 @@
   background-color: #37517e;
 }
 .header-in-c {
-  margin: 0 10%;
+  margin: 0 8%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .header-in-c h1 {
   font-size: 30px;
-  margin: 0;
+  font-weight: 500;
+  margin-top: 5px;
   padding: 0;
   line-height: 1;
-  font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-right: auto;
+  font-family: "Jost", sans-serif;
 }
 .header-in-c h1 a {
   text-decoration: none;
   color: white;
 }
-#nav-bar-c {
+.nav-bar-c {
   display: flex;
   align-items: center;
   padding: 0;
@@ -181,11 +182,33 @@
   list-style: none;
   display: flex;
   align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
-#nav-bar-c .scrollto-home {
+.nav-bar-c .scrollto-home {
   color: #47b2e4;
 }
-#nav-bar-c .getstarted-c {
+/* .dropdown-c {
+  position: relative;
+  display: inline-block;
+} */
+.dropdown-content-c {
+  display: none;
+  list-style: none;
+  padding: 17px;
+  margin: 0;
+  width: 332px;
+  height: 334px;
+  border: 1px solid #aaa;
+  background: white;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  z-index: 100;
+}
+.dropdown-c-hover :hover ul {
+  display: inline-block;
+}
+.nav-bar-c .getstarted-c {
   padding: 8px 20px;
   margin-left: 30px;
   font-size: 14px;
@@ -193,7 +216,7 @@
   border-radius: 50px;
   font-weight: 600;
 }
-#nav-bar-c a {
+.nav-bar-c a {
   display: flex;
   align-items: center;
   padding: 10px 0 10px 30px;
@@ -204,13 +227,12 @@
   text-decoration: none;
 }
 #hello-c {
-  padding-top: 72px;
   background-color: #37517e;
 }
 #container-for-bs-c {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 /* .main-of-BS-c1 {
   width: 456px;
@@ -219,7 +241,7 @@
 } */
 #container-for-bs-c h1 {
   font-family: "Jost", sans-serif;
-  width: 460px;
+  width: 650px;
   height: 112px;
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -250,16 +272,34 @@
   color: #fff;
   background: #47b2e4;
 }
+.gs-c:hover {
+  background-color: #00a6eb;
+}
 .wv-c {
   font-size: 16px;
   margin: 10px 0 0 25px;
   color: #fff;
   text-decoration: none;
 }
-.header-of-BS-c img {
-  width: 456px;
-  height: 377.65px;
+.header-of-BS-c {
+  width: 650px;
+  height: 400px;
 }
+
+.header-of-BS-c img {
+  width: 640px;
+  height: 485px;
+  animation: move 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes move {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
 .client-logo-section {
   display: flex;
   align-items: center;
@@ -278,11 +318,17 @@
   align-items: center;
   justify-content: center;
 }
-.client-logo-section img {
+.lg-c img {
   max-width: 40%;
   -webkit-filter: grayscale(100%);
-  filter: gray;
+  filter: grayscale(100%);
 }
+.img-hover:hover {
+  max-width: 40%;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
 #en-logo-c {
   display: flex;
   align-items: center;
@@ -391,3 +437,11 @@
 .main-of-BS-c2 {
 
 } */
+
+/* 추가된 부분 */
+#text-right {
+  margin-left: 40px;
+  margin-top: 90px;
+  width: 650px;
+  height: 400px;
+}
