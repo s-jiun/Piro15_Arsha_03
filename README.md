@@ -3,12 +3,9 @@
 
 <img src="images/arsha.png" width="500" height="300">
 
-<br><br>
-
-### 팀원🙋‍♀️
-
 <br>
 
+## **팀원**🙋‍♀️
 - 김승주 [😀](https://github.com/SeungJooKim)
 - 김건웅 [😀](https://github.com/woong7)
 - 석상언 [😀](https://github.com/sharpcoder312)💦💦
