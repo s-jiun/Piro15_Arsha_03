@@ -834,6 +834,7 @@
                         </div>
                         <iframe width="100%" id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621">
                         </iframe>
+
                     </div>
 
 
@@ -854,15 +855,11 @@
                         </div>
                         <div class="form-group-z">
                             <label for="name">Message</label>
-                            <textarea class="form-control" name="message" rows="10" required=""></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message">Error: Unable to load the "PHP Email Form" Library!</div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <textarea class="form-control" name="message" rows="7" required=""></textarea>
                         </div>
                         <div class="text-center-z">
-                            <button type="submit">Send Message</button>
+                            <iframe id="frame" src="./default.html" width="100" height="100" name="if_a" frameborder="0"></iframe>
+                            <button type="submit"><a id="frameSubmit" href="./error.html" target="if_a">Send Message</a></button>
                         </div>
                     </form>
                 </div>
