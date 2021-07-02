@@ -68,18 +68,30 @@
   color: #47b2e4;
   text-decoration: none;
 }
-/** check시 블록 나오는 부분 못 짜는중ㅜㅜ zin**/
-/**#expand-toggle-z {
+/** check시 블록 나오는 부분  **/
+/** faq 1번**/
+.expand-toggle-z {
   display: none;
   background: #ddd;
-}**/
-
-.expandable {
-  visibility: hidden;
 }
 
-#expand-toggle-z:checked ~ * .expandable {
-  visibility: visible;
+li label div {
+  display: inline;
+}
+.collapse-after-z {
+  display: none;
+}
+
+#expand-toggle-1-z:checked ~ * .collapse-after-z {
+  display: inline-block;
+}
+
+#expand-toggle-1-z:checked ~ * .collapse-before-z {
+  display: none;
+}
+
+.collapse-after-z p {
+  padding-top: 10px;
 }
 
 /** 지도 section css **/
