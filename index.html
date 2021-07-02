@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/bootstrap-logo.png" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="shortcut icon" type="image/x-icon" href="./images/bootstrap-logo.png" />
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
@@ -122,31 +122,46 @@
                         <a class="ho-c scrollto-team"
                             href="https://bootstrapmade.com/demo/templates/Arsha/#team">Team</a>
                     </li>
-                    <li class="dropdown-c-hover dropdown-c">
+                    <li class="dropdown-c">
                         <a class="ho-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">
-                            <span>Dropdown</span>
+                            Dropdown
                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
-                        <ul class="dropdown-content-c">
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 1</a>
-                            </li>
-                            <li class="dropdown-c">
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">
-                                    <span>Deep Drop Down </span>
+                        <div class="dropdown-content-c">
+
+
+                            <a class="dd-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 1</a>
+                            <div class="dd-c dropdowns-c" id="kk-c">
+                                <a style="color : black; padding-left:0;"
+                                    href="https://bootstrapmade.com/demo/templates/Arsha/#">
+                                    Deep Drop Down
                                     <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 2</a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 3</a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 4</a>
-                            </li>
-                        </ul>
+                                <div class="dropdown-contents-c">
+                                    <a class="ee-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Deep Drop
+                                        Down 1</a>
+                                    <a class="ee-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Deep Drop
+                                        Down 2</a>
+                                    <a class="ee-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Deep Drop
+                                        Down 3</a>
+                                    <a class="ee-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Deep Drop
+                                        Down 4</a>
+                                    <a class="ee-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Deep Drop
+                                        Down 5</a>
+
+
+                                </div>
+                            </div>
+
+                            <a class="dd-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 2</a>
+                            <a class="dd-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 3</a>
+                            <a class="dd-c" href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 4</a>
+
+
+
+                        </div>
+
+
                     </li>
                     <li>
                         <a class="ho-c scrollto-ct"
@@ -259,6 +274,11 @@
                     </div>
                 </div>
         </section>
+
+
+
+
+
         <section id="why-us">
             <div class="container">
                 <div class="item1-b">
@@ -804,8 +824,8 @@
                             <h4>Call:</h4>
                             <p>+1 5589 55488 55s</p>
                         </div>
-                        <img src="./images/map.png" alt="map" width="393px" height="289px">
-
+                        <iframe width="100%" id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621">
+                        </iframe>
                     </div>
 
 
@@ -853,7 +873,7 @@
                     <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                     <div id="input">
                         <span><input type="email" name="email" /></span>
-                        <form url="#"><input type="submit" value="Subscribe"/></form>
+                        <form url="#"><input type="submit" value="Subscribe" /></form>
                     </div>
                 </div>
             </div>
@@ -910,11 +930,16 @@
                     <div>
                         <nav>
                             <ul style="list-style-type:none;">
-                                <li class="hover-test"><a href="#"><span></span><span class="blind">twitter</span></li></a>
-                                <li class="hover-test"><a href="#"><span></span></span><span class="blind">facebook</span></li></a>
-                                <li class="hover-test"><a href="#"><span></span></span><span class="blind">instagram</span></li></a>
-                                <li class="hover-test"><a href="#"><span></span></span><span class="blind">skype</span></li></a>
-                                <li class="hover-test"><a href="#"><span></span></span><span class="blind">linkedin</span></li></a>
+                                <li class="hover-test"><a href="#"><span></span><span class="blind">twitter</span></li>
+                                </a>
+                                <li class="hover-test"><a href="#"><span></span></span><span
+                                            class="blind">facebook</span></li></a>
+                                <li class="hover-test"><a href="#"><span></span></span><span
+                                            class="blind">instagram</span></li></a>
+                                <li class="hover-test"><a href="#"><span></span></span><span class="blind">skype</span>
+                                </li></a>
+                                <li class="hover-test"><a href="#"><span></span></span><span
+                                            class="blind">linkedin</span></li></a>
                             </ul>
                         </nav>
                     </div>
