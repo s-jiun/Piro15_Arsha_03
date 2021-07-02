@@ -213,12 +213,10 @@
   display: none;
   position: absolute;
   background-color: white;
-<<<<<<< HEAD
-  width: 160px;
-=======
+
 
   width: 200px;
->>>>>>> 0b7b77833b3c8d866d4e10ca1da1b7222283c2e7
+
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -228,21 +226,6 @@
   text-decoration: none;
   display: block;
 }
-
-<<<<<<< HEAD
-.dropdown-content-c > div > a:hover+div{
-    color:blue;
-}
-
-.dropdown-content-c > div > a{
-  display: inline-block;
-  position:absolute;
-  top:0;
-  left:-10px;
-}
-=======
-
->>>>>>> 0b7b77833b3c8d866d4e10ca1da1b7222283c2e7
 /* Change color of dropdown links on hover */
 .dropdown-content-c .dd-c:hover {
   background-color: #ddd;
@@ -259,18 +242,13 @@
 .dropdown-contents-c {
   display: none;
   position: absolute;
-<<<<<<< HEAD
-  left:160px;
-  top:0;
-  background-color: white;
-  min-width: 160px;
-=======
+
+
 
   top: 8px;
   right: 200px;
   background-color: white;
   width: 200px;
->>>>>>> 0b7b77833b3c8d866d4e10ca1da1b7222283c2e7
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
