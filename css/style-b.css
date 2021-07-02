@@ -11,7 +11,6 @@
   display: flex;
   width: 100%;
   height: 100%;
-  padding-top: 50px;
 }
 
 #why-us .item1-b {
@@ -42,9 +41,15 @@
 }
 
 #why-us .drop-box-b {
+  position: relative;
   margin-top: 15px;
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+#why-us .drop-box-b summary {
+  position: relative;
+  top: -12px;
 }
 
 #why-us .drop-box-b h3 {
@@ -80,9 +85,24 @@
   color: #47b2e4;
 }
 
-#why-us .drop-box-content-b {
-  opacity: 0;
-  display: none;
+#why-us .drop-box-header-b:checked i {
+  color: red;
+}
+
+details {
+  position: relative;
+}
+
+summary::before {
+  position: relative;
+  top: -15px;
+  left: -10px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 15px;
+  background-color: white;
+  z-index: 5;
 }
 
 #why-us .item2-b {
