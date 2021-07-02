@@ -153,7 +153,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #cbd6e9;
+  background: #eff2f8;
   text-decoration: none;
 }
 .card-s .intro-s .social-s i {
@@ -239,6 +239,15 @@
   color: white;
   background-color: #47b2e4;
 }
+.second-c #started-s {
+  background-color: #47b2e4;
+  color: white;
+}
+.second-c #started-s:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
 .cardP-s ul {
   padding: 20px 0;
   list-style: none;
