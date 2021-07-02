@@ -1,3 +1,12 @@
+.hover-c:hover {
+  color: #00a6eb;
+}
+.ho-c:hover {
+  background-color: #47b2e4;
+}
+.hovers-c:hover {
+  background-color: #47b2e4;
+}
 .header-container-c {
   position: relative;
   background: #fff;
