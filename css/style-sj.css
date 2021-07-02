@@ -83,7 +83,7 @@
 
 .member-s .card-s:hover {
   top: -10px;
-  /* transition: all 1s linear 0.5s; */
+  /* transition: top 2s; */
 }
 
 .member-s .card-s .img-s {
@@ -194,8 +194,8 @@
   margin-top: 5px;
 }
 #pricing-s .second-c {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-top: 5px solid#47b2e4;
 }
 
@@ -235,6 +235,9 @@
   position: relative;
   font-family: "Open Sans", sans-serif;
 }
+.cardP-s li span {
+  margin-left: 10px;
+}
 .cardP-s i {
   color: #28a745;
 }
@@ -247,6 +250,6 @@
 }
 .cardP-s .no span {
   text-decoration: line-through;
-  margin-left: 10px;
+  margin-left: 13px;
   font-weight: 550;
 }
