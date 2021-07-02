@@ -60,17 +60,25 @@
 .faq-List-z .far.fa-question-circle {
   color: #47b2e4;
 }
-
-.faq-List-z a:hover {
+.faq-List-z li a {
+  color: #435b86;
+  text-decoration: none;
+}
+.faq-List-z li a:hover {
   color: #47b2e4;
   text-decoration: none;
 }
+/** check시 블록 나오는 부분 못 짜는중ㅜㅜ zin**/
+/**#expand-toggle-z {
+  display: none;
+  background: #ddd;
+}**/
 
-.faq-List-z .collapse-z {
-  visibility: collapse;
+.expandable {
+  visibility: hidden;
 }
-/** check시 블록 나오는 부분 못 짜겠어요 ㅜㅜ zin**/
-.faq-list-z.fas.fa-chevron-down: ~.collapse-z {
+
+#expand-toggle-z:checked ~ * .expandable {
   visibility: visible;
 }
 
