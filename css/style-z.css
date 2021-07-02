@@ -82,7 +82,7 @@
 .contact-content-z {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .info-z {
@@ -93,6 +93,12 @@
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
   display: inline-block;
   margin-right: 27px;
+}
+#info-picture-z {
+  width: 451em;
+}
+#contact-inputUser-z {
+  width: 641em;
 }
 
 .contact-input-z {
@@ -161,11 +167,17 @@
   flex-direction: row;
   width: 100%;
   max-width: 100%;
+  justify-content: space-between;
 }
 .contact-input-z .row .row-form-z {
   width: 50%;
-  margin: 0px 0px 20px;
-  padding: 0px 12px 8px;
+}
+#contact-Name {
+  margin-right: 20px;
+}
+
+#contact-Email {
+  margin-left: 20px;
 }
 .contact-input-z label {
   display: inline-block;
