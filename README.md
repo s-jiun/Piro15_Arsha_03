@@ -9,8 +9,8 @@
 <br>
 
 - 김승주 [😀](https://github.com/SeungJooKim)
-- 김건웅 [😀]()
-- 석상언 [😀]()💦💦
-- 서지운 [😀]()
-- 박진혁 [😀]()
-- 최도윤 [😀]()
+- 김건웅 [😀](https://github.com/woong7)
+- 석상언 [😀](https://github.com/sharpcoder312)💦💦
+- 서지운 [😀](https://github.com/s-jiun)
+- 박진혁 [😀](https://github.com/zinhyeok)
+- 최도윤 [😀](https://github.com/cdy9777)
