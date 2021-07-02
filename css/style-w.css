@@ -9,7 +9,8 @@ section {
 
 .cta-w{
     
-    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../assets/cta-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), 
+    url(../images/cta-bg.jpg) fixed center center;
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
