@@ -44,6 +44,7 @@ a {
   text-align: center;
   width: 40px;
   height: 40px;
+  transition: 0.3s;
 }
 
 #go-to-top-j:hover {
@@ -260,6 +261,7 @@ nav li:nth-child(2) span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 nav li:nth-child(3) span:first-child {
@@ -273,6 +275,7 @@ nav li:nth-child(3) span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 nav li:nth-child(4) span:first-child {
@@ -286,6 +289,7 @@ nav li:nth-child(4) span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 nav li:last-child span:first-child {
@@ -299,6 +303,7 @@ nav li:last-child span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 .container3-j {
