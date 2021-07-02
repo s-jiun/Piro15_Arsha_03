@@ -40,6 +40,9 @@
 
 .section-title-z p {
   margin-bottom: 0;
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 .faq-List-z ul {
