@@ -9,6 +9,8 @@
 }
 .header-container-c {
   position: relative;
+  position: fixed;
+  z-index: 5;
   background: #fff;
   height: 65px;
   border-bottom: 1px solid #ddd;
@@ -149,6 +151,12 @@
 .header-c {
   padding: 15px 0;
   background-color: #37517e;
+  position: fixed;
+  top: 65px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0.95;
 }
 .header-in-c {
   margin: 0 8%;
@@ -187,35 +195,6 @@
 .nav-bar-c .scrollto-home {
   color: #47b2e4;
 }
-/* .dropdown-c {
-  position: relative;
-  display: inline-block;
-} */
-.dropdown-content-c {
-  display: none;
-  list-style: none;
-  padding: 17px;
-  margin: 0;
-  width: 332px;
-  height: 334px;
-  border: 1px solid #aaa;
-  background: white;
-  position: absolute;
-  top: -15px;
-  right: 0;
-  z-index: 100;
-}
-.dropdown-c-hover :hover ul {
-  display: inline-block;
-}
-.nav-bar-c .getstarted-c {
-  padding: 8px 20px;
-  margin-left: 30px;
-  font-size: 14px;
-  border: 2px solid #47b2e4;
-  border-radius: 50px;
-  font-weight: 600;
-}
 .nav-bar-c a {
   display: flex;
   align-items: center;
@@ -226,11 +205,91 @@
   white-space: nowrap;
   text-decoration: none;
 }
+.dropdown-c {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content-c {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  width: 200px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 10px;
+}
+.dropdown-content-c .dd-c {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-c .dd-c:hover {
+  color: #47b2e4;
+}
+#kk-c:hover > a {
+  color: #47b2e4 !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-c:hover .dropdown-content-c {
+  display: block;
+}
+.dropdowns-c {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-contents-c {
+  display: none;
+  position: absolute;
+
+  top: 8px;
+  right: 200px;
+  background-color: white;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 10px;
+}
+.dropdown-contents-c .ee-c {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-contents-c .ee-c:hover {
+  color: #47b2e4;
+}
+
+/* Show the dropdown menu on hover */
+.dropdowns-c:hover .dropdown-contents-c {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown
+.dropdown-c:hover .dropbtn {background-color: #3e8e41;} */
+
+.nav-bar-c .getstarted-c {
+  padding: 8px 20px;
+  margin-left: 30px;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
 #hello-c {
   background-color: #37517e;
 }
 #container-for-bs-c {
   display: flex;
+  margin-top: 128px;
   /* align-items: center;
   justify-content: center; */
 }
