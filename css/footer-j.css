@@ -194,14 +194,18 @@ nav li {
   display: inline-block;
 }
 
-nav li:hover .hover {
-  background-color: black;
-  transition: 0.3s;
+nav .hover-test:hover span:first-child{  
+  
+  background-color: red;  
+
 }
+
+
 
 nav li:first-child span:first-child {
   display: inline-block;
-  background: url(../images/twitter.png) #47b2e4 9px 9px no-repeat;
+  background: url(../images/twitter.png) 9px 9px no-repeat;
+  background-color: #47b2e4;
   background-size: 17px 17px;
   line-height: 1;
   padding: 8px 0;
@@ -263,6 +267,8 @@ nav li:last-child span:first-child {
   width: 36px;
   height: 36px;
 }
+
+
 
 .container3-j {
   display: flex;
