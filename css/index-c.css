@@ -251,11 +251,35 @@
   width: 456px;
   height: 377.65px;
 }
+.client-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  background-color: #f3f5fa;
+  height: 87.5px;
+}
 .client-logo-section ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.client-logo-section ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-logo-section img {
+  max-width: 40%;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
+#en-logo-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* .main-of-BS-c1 span:last-child {
   font-size: 48px;
   font-weight: 700;
