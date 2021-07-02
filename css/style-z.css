@@ -211,7 +211,7 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.contact-input-z button[type="button"] {
+.contact-input-z button[type="submit"] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -228,10 +228,6 @@
 }
 .text-center-z {
   text-align: center !important;
-}
-
-form :focus {
-  background: #e48e47;
 }
 
 form :active ~ * .error-message {
