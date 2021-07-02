@@ -320,7 +320,6 @@
 #aboutus-text {
   display: flex;
   justify-content: center;
-  padding: 30px 200px;
   margin-top: 20px;
 }
 #aboutus-left {
@@ -342,11 +341,11 @@
 #aboutus-text i {
   font-size: 18px;
   color: #47b2e4;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 #aboutus-text #top-text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #aboutus-text #top-text span {
   line-height: 1.5;
