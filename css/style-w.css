@@ -79,10 +79,12 @@ section {
 
 #portfolio-w {
     width: 100%;
+    height: auto;
     padding: 60px 0;
     position: relative;
     top: 10px;
     background-color: #fff;
+    overflow: hidden;
 }
 
 #portfolio-w > h2 {
@@ -180,7 +182,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: relative;
-    height: 250px;
+    height: auto;
     width: 100%;
     margin: 0 -12px;
 }
@@ -206,6 +208,10 @@ section {
     max-width:100%;
     height:auto;
     object-fit: cover;
+}
+
+.item-w .card-w:hover img{
+    transform:scale(1.5);
 }
 
 .item-w .card-w .info-w{
@@ -247,30 +253,39 @@ section {
     text-align-last: left;
 }
 
-.bx-plus-w{
-    font-family: 'boxicons'!important;
+.item-w .card-w .info-w .plus-btn-w{
+    width:24px;
+    height:24px;
+    position: absolute;
+    right:39px;
+    bottom:18px;
+
+}
+
+.item-w .card-w .info-w .link-btn-w{
+    width:24px;
+    height:24px;
+    position: absolute;
+    right:15px;
+    bottom:18px;
+}
+
+.bx{
+    font-family: 'boxicons';
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
     line-height: 1;
     display: inline-block;
     text-transform: none;
+    color: #fff;
+    vertical-align: middle;
 }
 
-.bx-plus-w ::before{
+.bx-plus:before{
     content: "\eb21";
 }
 
-.bx-link-w{
-    font-family: 'boxicons'!important;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 1;
-    display: inline-block;
-    text-transform: none;
-}
-
-.bx-link-w ::before{
+.bx-link-alt:before{
     content: "\ea9e";
 }

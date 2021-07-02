@@ -194,6 +194,11 @@ nav li {
   display: inline-block;
 }
 
+nav li:hover .hover {
+  background-color: black;
+  transition: 0.3s;
+}
+
 nav li:first-child span:first-child {
   display: inline-block;
   background: url(../images/twitter.png) #47b2e4 9px 9px no-repeat;
