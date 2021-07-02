@@ -383,6 +383,7 @@
 }
 .img-hover:hover {
   max-width: 40%;
+  transform: scale(1.2);
   -webkit-filter: none !important;
   filter: none !important;
 }
