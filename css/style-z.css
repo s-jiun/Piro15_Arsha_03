@@ -230,10 +230,6 @@
   text-align: center !important;
 }
 
-form :active {
-  background: #e48e47;
-}
-
 form :active ~ * .error-message {
   background: red;
 }
