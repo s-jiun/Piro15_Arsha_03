@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/footer-j.css">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="./images/bootstrap-logo.png" />
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -24,39 +25,60 @@
 </head>
 
 <body>
-    <header>
+
+    <header class="header-container-c">
         <div class="logo-c">
-            <a href="https://bootstrapmade.com/"></a>
-            <img src="https://bootstrapmade.com/theme/img/logo.png" alt=""></img>
-            <span>BOOTSTRAPMADE</span>
+            <a href="https://bootstrapmade.com/">
+                <img src="https://bootstrapmade.com/theme/img/logo.png" alt=""></img>
+                <strong class="bt-title">
+                    BOOTSTRAP
+                    <span>MADE</span>
+                </strong>
+
+            </a>
+        </div>
+        <div class="device-c">
+            <ul>
+                <li class="first-device-c">
+                    <i class="fas fa-desktop"></i>
+                </li>
+                <li class="second-device-c">
+                    <i class="fas fa-tablet-alt"></i>
+                </li>
+                <li class="third-device-c">
+                    <i class="fas fa-mobile-alt"></i>
+                </li>
+            </ul>
+
         </div>
         <div class="navi-c">
             <ul>
                 <li>
-                    <a href="https://bootstrapmade.com/demo/templates/Arsha/" title="Hide-demo">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    <a class="external-c" href="https://bootstrapmade.com/demo/templates/Arsha/" title="Hide-demo">
+                        <i class="fas fa-external-link-alt"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/"
+                    <a class="home-c" href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/"
                         title="go-to-home">
                         <i class="fa fa-home" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download"
+                    <a class="download-c"
+                        href="https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/#download"
                         title="download-template">
                         <i class="fa fa-download" aria-hidden="true"></i>
                         <span>Free Download</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://bootstrapmade.com/demo/KnightOne/" title="previous-template">
+                    <a class="left-c" href="https://bootstrapmade.com/demo/KnightOne/" title="previous-template">
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://bootstrapmade.com/demo/Gp/" title="next-template">
+                    <a class="right-c" href="https://bootstrapmade.com/demo/Gp/" title="next-template">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                 </li>
@@ -64,6 +86,8 @@
         </div>
 
     </header>
+
+
     <!-- 이 부분은 현재 웹페이지 상에 iframe으로 설정되어 있음 -->
     <!-- better solution ~~ -->
     <div class="header-c">
@@ -72,105 +96,115 @@
                 <a href="https://bootstrapmade.com/demo/templates/Arsha/index.html">ARSHA</a>
             </h1>
             <div id="nav-bar-c">
-                <ul>
+                <ul class="menu-c">
                     <li>
-                        <a class="scrollto-c" href="https://bootstrapmade.com/demo/templates/Arsha/#hero">Home</a>
+                        <a class="scrollto-home" href="https://bootstrapmade.com/demo/templates/Arsha/#hero">Home</a>
                     </li>
                     <li>
-                        <a class="scrollto-active-c"
-                            href="https://bootstrapmade.com/demo/templates/Arsha/#about">About</a>
+                        <a class="scrollto-about" href="https://bootstrapmade.com/demo/templates/Arsha/#about">About</a>
                     </li>
                     <li>
-                        <a class="scrollto-c"
+                        <a class="scrollto-ser"
                             href="https://bootstrapmade.com/demo/templates/Arsha/#services">Services</a>
                     </li>
                     <li>
-                        <a class="scrollto-c"
+                        <a class="scrollto-pp"
                             href="https://bootstrapmade.com/demo/templates/Arsha/#portfolio">Portpolio</a>
                     </li>
                     <li>
-                        <a class="scrollto-c" href="https://bootstrapmade.com/demo/templates/Arsha/#team">Team</a>
+                        <a class="scrollto-team" href="https://bootstrapmade.com/demo/templates/Arsha/#team">Team</a>
                     </li>
                     <li>
                         <a href="https://bootstrapmade.com/demo/templates/Arsha/#">
                             <span>Dropdown</span>
                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
-                        <ul class="dropdown-active">
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 1</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">
-                                    <span>Deep Drop Down </span>
-                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 2</a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 3</a>
-                            </li>
-                            <li>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 4</a>
-                            </li>
-                        </ul>
+                        <!-- <ul class = "dropdown-active">
+                                <li>
+                                    <a href = "https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 1</a>
+                                </li>
+                                <li class = "dropdown">
+                                    <a href = "https://bootstrapmade.com/demo/templates/Arsha/#">
+                                        <span>Deep Drop Down </span>
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 2</a>
+                                </li>
+                                <li>
+                                    <a href = "https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 3</a>
+                                </li>
+                                <li>
+                                    <a href = "https://bootstrapmade.com/demo/templates/Arsha/#">Drop Down 4</a>
+                                </li>
+                            </ul> -->
                     </li>
                     <li>
-                        <a class="scrollto-c" href="https://bootstrapmade.com/demo/templates/Arsha/#contact">Contact</a>
+                        <a class="scrollto-ct"
+                            href="https://bootstrapmade.com/demo/templates/Arsha/#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="getstarted scrollto-c">Get Started</a>
+                        <a class="getstarted-c">Get Started</a>
                     </li>
                 </ul>
-                <i class="fa fa-times" aria-hidden="true"></i>
+
             </div>
         </div>
     </div>
-    <div class="header-of-BS-c">
-        <img src="./images/hero-img.png" alt=""></img>
-    </div>
-    <div class="main-of-BS-c">
-        <span>Better Solutions For Your <br /></span>
-        <span>Business</span>
-    </div>
-    <div class="main-of-BS-c">
-        <span>We are team of talented designers making websites with<br /></span>
-        <span>Bootstrap</span>
-    </div>
-    <div class="footer-of-BS-c">
-        <a href="https://bootstrapmade.com/demo/templates/Arsha/#about">Get started</a>
+    <section id="hello-c">
+        <div class="container" id="container-for-bs-c">
+            <div>
+                <!-- <div class = "main-of-BS-c1"> -->
+                <h1>Better Solutions For Your Business</h1>
+
+                <!-- </div> -->
+                <!-- <div class = "main-of-BS-c2"> -->
+                <h2>We are team of talented designers making websites with Bootstrap</h2>
+
+                <!-- </div> -->
+                <div class="footer-of-BS-c">
+                    <a href="https://bootstrapmade.com/demo/templates/Arsha/#about" class="gs-c">Get started</a>
 
 
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q">
-            <i class="fa fa-play-circle" aria-hidden="true"></i>
-            <span>Watch Video</span>
-        </a>
-    </div>
+                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="wv-c">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        Watch Video
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="header-of-BS-c">
+                    <img src="./images/hero-img.png" alt=""></img>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
     <main>
         <!-- myob belimo lifegroups.. -->
-        <section class="client logo section">
-            <div class="container">
+        <section class="client-logo-section">
+            <div class="container" id="en-logo-c">
                 <ul>
-                    <li>
+                    <li class="lg-c">
                         <img src="./images/client-1.png" alt="" text="myob" />
                     </li>
-                    <li>
-                        <img src="./images/client-2.png" alt="" text="myob" />
+                    <li class="lg-c">
+                        <img src="./images/client-2.png" alt="" text="belimo" />
                     </li>
-                    <li>
-                        <img src="./images/client-3.png" alt="" text="myob" />
+                    <li class="lg-c">
+                        <img src="./images/client-3.png" alt="" text="lightgroup" />
                     </li>
-                    <li>
-                        <img src="./images/client-4.png" alt="" text="myob" />
+                    <li class="lg-c">
+                        <img src="./images/client-4.png" alt="" text="lilky" />
                     </li>
-                    <li>
-                        <img src="./images/client-5.png" alt="" text="myob" />
+                    <li class="lg-c">
+                        <img src="./images/client-5.png" alt="" text="citrus" />
                     </li>
-                    <li>
-                        <img src="./images/client-6.png" alt="" text="myob" />
+                    <li class="lg-c">
+                        <img src="./images/client-6.png" alt="" text="trustly" />
                     </li>
                 </ul>
             </div>
@@ -180,151 +214,139 @@
             <div id="about-us" , class="container">
                 <div>
                     <div class="aboutus-title-c">
-                        <h2>"About Us"</h2>
+                        <h2>ABOUT US</h2>
                     </div>
-                    <div class="aboutus-low-c">
-                        <div>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut<br /></span>
-                            <span>labore et dolore magna aliqua."</span>
+                    <div id="aboutus-text">
+                        <div id="aboutus-left">
+                            <div id="top-text">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</span>
+                            </div>
                             <ul>
                                 <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>" Ullamco laboris nisi ut aliquip ex ea commodo consequat"</span>
+                                    <i class="ri-check-double-line"></i>
+                                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>"Duis aute irure dolor in reprehenderit in voluptate velit"</span>
+                                    <i class="ri-check-double-line"></i></i>
+                                    <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>" Ullamco laboris nisi ut aliquip ex ea commodo consequat"</span>
+                                    <i class="ri-check-double-line"></i>
+                                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
 
                                 </li>
                             </ul>
                         </div>
-                        <div>
-                            <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br
-                                    /?</span>
-                                <span>in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint<br /></span>
+                        <div id="about-right">
+                            <div id="top-text">
+                                <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    dolor in<br></span>
+                                <span>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur<br>sint</span>
                                 <span>occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est<br /></span>
+                                    <br>est</span>
                                 <span>laborum.</span>
-                                <a href="https://bootstrapmade.com/demo/templates/Arsha/#">Learn More</a>
+                            </div>
+                            <button id="learn-more" onclick="location.href='#'">Learn More</button>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-
-
         <section id="why-us">
-            <div class="container-b">
+            <div class="container">
                 <div class="item1-b">
-                    <h1 class="item1-header-b">
-                        Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong>
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua. Duis aute irure dolor in reprehenderit
-                    </p>
-                    <div class="accordion-list-b">
-                        <ul>
-                            <li>
-                                <h2 class="drop-box-header-b">
-                                    <span>01</span> Non consectetur a erat nam at lectus urna duis?
-                                    <i class="fas fa-angle-down"></i>
-                                </h2>
-                                <p class="drop-box-content-b">
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur
-                                    gravida.
-                                    Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                </p>
-                            </li>
-                            <li>
-                                <h2 class="drop-box-header-b">
-                                    <span>02</span> Feugiat scelerisque varius morbi enim nunc?
-                                    <i class="fas fa-angle-down"></i>
-                                </h2>
-                                <p class="drop-box-content-b">
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id
-                                    donec
-                                    ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
-                                    pellentesque elit
-                                    ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                </p>
-                            </li>
-                            <li>
-                                <h2 class="drop-box-header-b">
-                                    <span>03</span> Dolor sit amet consectetur adipiscing elit?
-                                    <i class="fas fa-angle-down"></i>
-                                </h2>
-                                <p class="drop-box-content-b">
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum
-                                    integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                                    pellentesque eu tincidunt.
-                                    Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                                    sed odio morbi quis
-                                </p>
-                            </li>
-                        </ul>
+                    <h1 class="item1-b-header">Eum ipsam laborum deleniti <strong>velit pariatur architecto aut
+                            nihil</strong></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    <div class="drop-box-b">
+                        <h3 class="drop-box-header-b">
+                            <span>01 </span>Non consectetur a erat nam at lectus urna duis?
+                            <i class="fas drop fa-angle-down"></i>
+                        </h3>
+                        <p class="drop-box-content-b">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                            volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</p>
+                    </div>
+                    <div class="drop-box-b">
+                        <h3 class="drop-box-header-b">
+                            <span>02 </span>Feugiat scelerisque varius morbi enim nunc?
+                            <i class="fas drop fa-angle-down"></i>
+                        </h3>
+                        <p class="drop-box-content-b">Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                            morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque
+                            eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                            cursus turpis massa tincidunt dui.</p>
+                    </div>
+                    <div class="drop-box-b">
+                        <h3 class="drop-box-header-b">
+                            <span>03 </span>Dolor sit amet consectetur adipiscing elit?
+                            <i class="fas drop fa-angle-down"></i>
+                        </h3>
+                        <p class="drop-box-content-b">Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                            sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet
+                            nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                            tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
                     </div>
                 </div>
                 <div class="item2-b">
-                    <img src="./images/why-us.png" alt="Section: why-us">
+                    <img src="images/why-us.png" alt="Section: why us?">
                 </div>
             </div>
         </section>
 
         <!-- Skills Section -->
         <section id="skills">
-            <div class="container-b">
+            <div class="container">
                 <div class="item1-b">
                     <img src="./images/skills.png" alt="Section: skills">
                 </div>
                 <div class="item2-b">
-                    <h1 class="item1-header-b">
-                        <strong>
-                            Voluptatem dignissimos provident quasi corporis voluptates
-                        </strong>
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
-                    </p>
-                    <div class="progress">
-                        <div class="progress-header">
-                            <h3>HTML</h3>
-                            <span>100%</span>
+                    <div>
+                        <h1 class="item1-header-b">
+                            <strong>
+                                Voluptatem dignissimos provident <br />quasi corporis voluptates
+                            </strong>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore
+                            magna aliqua.
+                        </p>
+                        <div class="progress-bar">
+                            <div class="progress-header">
+                                <h3>HTML</h3>
+                                <h3>100%</h3>
+                            </div>
+                            <div class="bar"></div>
+                            <span class="progress-bar-gauge"></span>
                         </div>
-                        <div class="progress-bar"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-header">
-                            <h3>CSS</h3>
-                            <span>90%</span>
+                        <div class="progress-bar">
+                            <div class="progress-header">
+                                <h3>CSS</h3>
+                                <h3>90%</h3>
+                            </div>
+                            <div class="bar"></div>
+                            <span class="progress-bar-gauge"></span>
                         </div>
-                        <div class="progress-bar"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-header">
-                            <h3>JAVASCRIPT</h3>
-                            <span>75%</span>
+                        <div class="progress-bar">
+                            <div class="progress-header">
+                                <h3>JAVASCRIPT</h3>
+                                <h3>75%</h3>
+                            </div>
+                            <div class="bar"></div>
+                            <span class="progress-bar-gauge"></span>
                         </div>
-                        <div class="progress-bar"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-header">
-                            <h3>PHOTOSHOP</h3>
-                            <span>55%</span>
+                        <div class="progress-bar">
+                            <div class="progress-header">
+                                <h3>PHOTOSHOP</h3>
+                                <h3>55%</h3>
+                            </div>
+                            <div class="bar"></div>
+                            <span class="progress-bar-gauge"></span>
                         </div>
-                        <div class="progress-bar"></div>
                     </div>
                 </div>
             </div>
@@ -336,7 +358,8 @@
             <div class="container">
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    fugiat sit
+                    in iste officiis commodi quidem hic quas.</p>
                 <div class="card-collection">
                     <div class="card">
                         <i class="fas fa-basketball-ball"></i>
@@ -366,10 +389,10 @@
             <div id="left-half-w">
                 <h3>Call To Action</h3>
                 <p>
-                    Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollit anim id est laborum.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur <br /> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.
                 </p>
             </div>
             <div id="right-half-w">
@@ -389,10 +412,22 @@
                 </p>
 
                 <ul id="portfolio-filters-w">
-                    <li>All</li>
-                    <li>App</li>
-                    <li>Card</li>
-                    <li>Web</li>
+                    <div id="radio-button-w-1" class="radio-button-w">
+                        <input type="radio" name="group-w" id="btnControl1" class="blind" />
+                        <label class="btn" for="btnControl1"><span>All</span></label>
+                    </div>
+                    <div id="radio-button-w-2" class="radio-button-w">
+                        <input type="radio" name="group-w" id="btnControl2" class="blind" />
+                        <label class="btn" for="btnControl2"><span>App</span></label>
+                    </div>
+                    <div id="radio-button-w-3" class="radio-button-w">
+                        <input type="radio" name="group-w" id="btnControl3" class="blind" />
+                        <label class="btn" for="btnControl3"><span>Card</span></label>
+                    </div>
+                    <div id="radio-button-w-4" class="radio-button-w">
+                        <input type="radio" name="group-w" id="btnControl4" class="blind" />
+                        <label class="btn" for="btnControl4"><span>Web</span></label>
+                    </div>
                 </ul>
 
                 <div class="item-w">
@@ -411,6 +446,8 @@
             </div>
 
         </section>
+
+
 
         <section id="team-s">
             <h2>TEAM</h2>
@@ -514,11 +551,16 @@
 
                         </h4>
                         <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span></li>
-                            <li class="no"><i class="fa fa-times" aria-hidden="true"></i><span>Pharetra massa massa ultricies</span></li>
-                            <li class="no"><i class="fa fa-times" aria-hidden="true"></i><span>Massa ultrices mi quis hendrerit</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li class="no"><i class="fa fa-times" aria-hidden="true"></i><span>Pharetra massa massa
+                                    ultricies</span></li>
+                            <li class="no"><i class="fa fa-times" aria-hidden="true"></i><span>Massa ultrices mi quis
+                                    hendrerit</span></li>
 
                         </ul>
                         <button id="started-s">Get Started</button>
@@ -532,11 +574,16 @@
 
                         </h4>
                         <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span> Pharetra massa massa ultricies</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultrices mi quis hendrerit</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span> Pharetra massa massa
+                                    ultricies</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultrices mi quis
+                                    hendrerit</span></li>
 
                         </ul>
                         <button id="started-s">Get Started</button>
@@ -550,11 +597,16 @@
 
                         </h4>
                         <ul>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i><span> Pharetra massa massa ultricies</span></li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultrices mi quis hendrerit</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Quam adipiscing vitae proin</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nec feuigiat nisl pretium</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>Nulla at volutpat diam uteera</span>
+                            </li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span> Pharetra massa massa
+                                    ultricies</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i> <span>Massa ultrices mi quis
+                                    hendrerit</span></li>
 
                         </ul>
                         <button id="started-s">Get Started</button>
@@ -564,100 +616,94 @@
             </div>
         </section>
 
-        <section id="faq-z" class="faq section-z">
+        <section id="faq-z" class="faq-section-z">
             <div class="container">
-                <div class="section title-z"></div>
+                <div class="section-title-z">
                 <h2>Frequently Asked Questions</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
                     sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-            <div class="faq-List-z">
-                <ul>
-                    <li>
-                        <!--<li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">-->
-                        <i class="far fa-question-circle"></i>
-                        <a>Non consectetur a erat nam at lectus urna duis?
-                            <i class="fas fa-chevron-down"></i>
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div id="faq-list-1-z" class="collapse-z">
-                            <p>
-                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
-                                non.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="far fa-question-circle"></i>
-                        <a>Feugiat scelerisque varius morbi enim nunc?
-                            <i class="fas fa-chevron-down"></i>
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div id="faq-list-2-z" class="collapse-z">
-                            <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                velit
-                                laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                pretium.
-                                Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                                tincidunt dui.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="far fa-question-circle"></i>
-                        <a>Dolor sit amet consectetur adipiscing elit?
-                            <i class="fas fa-chevron-down"></i>
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div id="faq-list-3-z" class="collapse-z">
-                            <p>
-                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                pulvinar
-                                elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                                pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at
-                                elementum eu facilisis sed odio morbi quis
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="far fa-question-circle"></i>
-                        <a>Tempus quam pellentesque nec nam aliquam sem et
-                            tortor consequat?
-                            <i class="fas fa-chevron-down"></i>
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div id="faq-list-4-z" class="collapse-z">
-                            <p>
-                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
-                                adipiscing
-                                bibendum est. Purus gravida quis blandit turpis cursus in.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="far fa-question-circle"></i>
-                        <a>
-                            Tortor vitae purus faucibus ornare. Varius vel
-                            pharetra vel turpis nunc eget lorem dolor?
-                            <i class="fas fa-chevron-down"></i>
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div id="faq-list-5-z" class="collapse-z">
-                            <p>
-                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                integer
-                                malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem
-                                dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                </div>
+                <div class="faq-List-z">
+                    <ul>
+                        <li>
+                            <!--<li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">-->
+                            <i class="far fa-question-circle"></i>
+                            <a>Non consectetur a erat nam at lectus urna duis?
+                                <i class="fas fa-chevron-down"></i>
+                                <div class="collapse-z"><i class="fas fa-chevron-up"></i></div>
+                            <!--html code 수정 collapse-z 추가위해 div태그 추가 zin-->
+                            </a>
+                            <div id="faq-list-1-z" class="collapse-z">
+                                <p>
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                    curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="far fa-question-circle"></i>
+                            <a>Feugiat scelerisque varius morbi enim nunc?
+                                <i class="fas fa-chevron-down"></i>
+                                <div class="collapse-z"><i class="fas fa-chevron-up"></i></div>
+                            </a>
+                            <div id="faq-list-2-z" class="collapse-z">
+                                <p>
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                                    laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+                                    Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                                    tincidunt dui.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="far fa-question-circle"></i>
+                            <a>Dolor sit amet consectetur adipiscing elit?
+                                <i class="fas fa-chevron-down"></i>
+                                <div class="collapse-z"><i class="fas fa-chevron-up"></i></div>
+                            </a>
+                            <div id="faq-list-3-z" class="collapse-z">
+                                <p>
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                                    pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at
+                                    elementum eu facilisis sed odio morbi quis
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="far fa-question-circle"></i>
+                            <a>Tempus quam pellentesque nec nam aliquam sem et
+                                tortor consequat?
+                                <i class="fas fa-chevron-down"></i>
+                                <div class="collapse-z"><i class="fas fa-chevron-up"></i></div>
+                            </a>
+                            <div id="faq-list-4-z" class="collapse-z">
+                                <p>
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                    ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                                    bibendum est. Purus gravida quis blandit turpis cursus in.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="far fa-question-circle"></i>
+                            <a>
+                                Tortor vitae purus faucibus ornare. Varius vel
+                                pharetra vel turpis nunc eget lorem dolor?
+                                <i class="fas fa-chevron-down"></i>
+                                <div class="collapse-z"><i class="fas fa-chevron-up"></i></div>
+                            </a>
+                            <div id="faq-list-5-z" class="collapse-z">
+                                <p>
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer
+                                    malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem
+                                    dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!--지도부분 section main 끝단-->
@@ -665,14 +711,12 @@
             <div class="container">
                 <div class="section-title-z">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                        Quia
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                         fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
-
-                <div class="row-z">
+    
+                <div class="info-z">
                     <div class="contact-picture-z">
                         <div class="info-z">
                             <div class="address-z">
@@ -680,24 +724,24 @@
                                 <h4>Location:</h4>
                                 <p>A108 Adam Street, New York, NY 535022</p>
                             </div>
-
+    
                             <div class="email-z">
                                 <i class="far fa-envelope"></i>
                                 <h4>Email:</h4>
                                 <p>info@example.com</p>
                             </div>
-
+    
                             <div class="phone-z">
                                 <i class="fas fa-mobile-alt"></i>
                                 <h4>Call:</h4>
                                 <p>+1 5589 55488 55s</p>
                             </div>
                             <img src="./images/map.png" alt="map" width="393px" height="289px">
-
+    
                         </div>
-
+    
                     </div>
-
+    
                     <div class="contact-input-z">
                         <form class="contact-input-z">
                             <div class="row">
@@ -723,100 +767,110 @@
                                 <div class="error-message">Error: Unable to load the "PHP Email Form" Library!</div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <button type="submit">Send Message</button>
                         </form>
                     </div>
-
+    
                 </div>
-
+    
             </div>
         </section>
-    </main>
+        </main>
 
-    <footer>
-        <div class="newsletter-j">
-            <div class="container">
-                <div class="email-box-j">
-                    <h4>Join Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <input type="email" name="email" />
-                    <input type="submit" value="Subscribe" />
-                </div>
-            </div>
-        </div>
-        <div class="infomation-j">
-            <div class="container2-j">
-                <div class="contact-j">
-                    <h3>Arsha</h3>
-                    <p>
-                        A108 Adam Street
-                        <br>
-                        New York, NY 535022
-                        <br>
-                        United States
-                        <br>
-                        <br>
-                        <strong>Phone:</strong> +1 5589 55488 55
-                        <br>
-                        <strong>Email:</strong> info@example.com
-                        <br>
-                    </p>
-                </div>
-                <div class="list-j">
-                    <h4>Useful Links</h4>
-                    <ul style="list-style-type:none;">
-                        <li> <strong style="color: #47b2e4;">></strong> Home</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> About us</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Services</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Terms of service</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Privacy policy</li>
-                    </ul>
-                </div>
-                <div class="list-j">
-                    <h4>Our Services</h4>
-                    <ul style="list-style-type:none;">
-                        <li> <strong style="color: #47b2e4;">></strong> Web Design</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Web Development</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Product Management</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Marketing</li>
-                        <br>
-                        <li> <strong style="color: #47b2e4;">></strong> Graphic Design</li>
-                    </ul>
-                </div>
-                <div class="network-j">
-                    <h4>Our Social Networks</h4>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                    <div>
-                        <nav>
-                            <ul style="list-style-type:none;">
-                                <li><span></span><span class="blind">twitter</span></li>
-                                <li><span></span><span class="blind">facebook</span></li>
-                                <li><span></span><span class="blind">instagram</span></li>
-                                <li><span></span><span class="blind">skype</span></li>
-                                <li><span></span><span class="blind">linkedin</span></li>
-                            </ul>
-                        </nav>
+        <footer>
+            <a href="#" class="go-to-top-j">
+                <span></span><span class="blind">back to top</span>
+            </a>
+            <div class="newsletter-j">
+                <div class="container">
+                    <div class="email-box-j">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <input type="email" name="email" />
+                        <input type="submit" value="Subscribe" />
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container3-j">
-            <div class="copyright-j">
-                " © Copyright"
-                <strong><span>Arsha</span></strong>". All Rights Reserved"
+            <div class="information-j">
+                <div class="container2-j">
+                    <div class="contact-j">
+                        <h3>Arsha</h3>
+                        <p>
+                            A108 Adam Street
+                            <br />
+                            New York, NY 535022
+                            <br />
+                            United States
+                            <br />
+                            <br />
+                            <span style="font-weight: 900;">Phone:</span> +1 5589 55488 55
+                            <br />
+                            <span style="font-weight: 900;">Email:</span> info@example.com
+                            <br />
+                        </p>
+                    </div>
+                    <div class="list-j">
+                        <h4>Useful Links</h4>
+                        <ul style="list-style-type:none;">
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Home</li>
+                            <br />
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> About us</li>
+                            <br />
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Services</li>
+                            <br />
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Terms of service</li>
+                            <br />
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Privacy policy</li>
+                        </ul>
+                    </div>
+                    <div class="list-j">
+                        <h4>Our Services</h4>
+                        <ul style="list-style-type:none;">
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Web Design</li>
+                            <br>
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Web Development</li>
+                            <br>
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Product Management</li>
+                            <br>
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Marketing</li>
+                            <br>
+                            <li> <span style="color: #47b2e4; font-weight: 2000;">></span> Graphic Design</li>
+                        </ul>
+                    </div>
+                    <div class="network-j">
+                        <h4>Our Social Networks</h4>
+                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                        <div>
+                            <nav>
+                                <ul style="list-style-type:none;">
+                                    <li><a href="#"><span></span><span class="blind">twitter</span></li></a>
+                                    <li><a href="#"><span></span><span class="blind">facebook</span></li></a>
+                                    <li><a href="#"><span></span><span class="blind">instagram</span></li></a>
+                                    <li><a href="#"><span></span><span class="blind">skype</span></li></a>
+                                    <li><a href="#"><span></span><span class="blind">linkedin</span></li></a>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="credit-j">
-                "Designed by" <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <div class="container3-j">
+                <div class="copyright-j">
+                    © Copyright
+                    <span style="font-weight: 900;">Arsha</span>. All Rights Reserved
+                </div>
+                <div class="credit-j">
+                    "Designed by" <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+        
+    
+    
+    
+        
+    </body>
+    </html>
 
 
 
