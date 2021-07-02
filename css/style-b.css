@@ -1,0 +1,398 @@
+/* section:hover {
+  visibility: visible;
+  transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transition: transform .35s;
+  -o-transition: transform .35s;
+  -moz-transition: transform .35s;
+  -webkit-transition: transform .35s;
+} */
+
+/* Why us? Section */
+
+#why-us {
+  width: 100%;
+  height: 75vh;
+  padding: 60px 0;
+  background-color: #f3f5fa;
+}
+
+#why-us .container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#why-us .item1-b {
+  width: 880px;
+  padding: 10px 100px;
+}
+
+#why-us .item1-b-header {
+  margin-bottom: 6px;
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #37517e;
+  line-height: 1.2;
+}
+
+#why-us .item1-b-header strong {
+  font-weight: 700;
+}
+
+#why-us .item1-b p {
+  width: 650px;
+  font-family: "Open sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(128, 128, 128);
+  line-height: 1.6;
+}
+
+#why-us .drop-box-b {
+  position: relative;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#why-us .drop-box-b summary {
+  position: relative;
+  top: -12px;
+}
+
+#why-us .drop-box-b h3 {
+  position: relative;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  color: #343A40;
+  cursor: pointer;
+}
+
+#why-us .drop-box-header-b span {
+  padding-right: 7px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #47b2e4;
+}
+
+#why-us .drop-box-header-b i {
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  line-height: 1.5;
+}
+
+#why-us .drop-box-header-b .fa-chevron-up {
+  visibility: hidden;
+}
+
+#why-us .drop-box-header-b:hover {
+  color: #47b2e4;
+}
+
+#why-us .drop-box-header-b:hover i {
+  color: #47b2e4;
+}
+
+#why-us .drop-box-header-b:hover .fa-chevron-down {
+  display: none;
+}
+
+#why-us .drop-box-header-b:hover .fa-chevron-up {
+  visibility: visible;
+}
+
+details {
+  position: relative;
+}
+
+summary::before {
+  position: relative;
+  top: -15px;
+  left: -10px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 15px;
+  background-color: white;
+  z-index: 5;
+}
+
+#why-us .item2-b {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -15px;
+  right: -20px;
+  width: 600px;
+}
+
+.item2-b img {
+  width: 100%;
+}
+
+/* Skills Section */
+
+#skills {
+  width: 100%;
+  padding: 60px 100px;
+}
+
+#skills .container {
+  display: flex;
+}
+
+#skills .item1-b {
+  width: 800px;
+  margin-right: 20px;
+}
+
+#skills .item1-b img {
+  width: 100%;
+  height: 100%;
+}
+
+#skills .item1-header-b {
+  margin-bottom: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #37517e;
+  line-height: 1.2;
+}
+
+#skills .item2-b {
+  width: 800px;
+  height: 360px;
+}
+
+#skills p {
+  font-style: italic !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+#skills .progress-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#skills .progress-bar h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4668a2;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#skills .progress-bar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e8edf5;
+  position: relative;
+}
+
+#progress-bar-gauge1 {
+  display: block;
+  width: 0;
+  height: 10px;
+  background-color: #4668a2;
+  animation-name: gauge1;
+  animation-duration: 2200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gauge1 {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+#progress-bar-gauge2 {
+  display: block;
+  width: 0;
+  height: 10px;
+  background-color: #4668a2;
+  animation-name: gauge2;
+  animation-duration: 2200ms;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes gauge2 {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 90%;
+    opacity: 1;
+  }
+}
+
+#progress-bar-gauge3 {
+  display: block;
+  width: 0;
+  height: 10px;
+  background-color: #4668a2;
+  animation-name: gauge3;
+  animation-duration: 2200ms;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes gauge3 {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 75%;
+    opacity: 1;
+  }
+}
+
+#progress-bar-gauge4 {
+  display: block;
+  width: 0;
+  height: 10px;
+  background-color: #4668a2;
+  animation-name: gauge4;
+  animation-duration: 2200ms;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes gauge4 {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+/* Service Section */
+
+#services {
+  background-color: #f3f5fa;
+  padding: 50px 80px 20px 80px;
+}
+
+#services .container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#services>h1 {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  color: #37517e;
+}
+
+#services>h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#services>h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#services .container>p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #444444;
+}
+
+#services .card-collection {
+  display: flex;
+  padding: 30px 15px;
+
+}
+
+#services .card {
+  padding: 50px 30px;
+  background-color: #fff;
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  margin: 10px;
+  width: 305px;
+  height: 240px;
+  transition: 0.6s;
+}
+
+#services .card i {
+  display: block;
+  font-size: 30px;
+  color: #47b2e4;
+}
+
+#services .card h3 {
+  padding: 15px 0;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #37517e;
+}
+
+#services .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #444444;
+}
+
+#services .card:hover {
+  transform: translateY(-8px);
+}
+
+#services .card:hover h3 {
+  color: #47b2e4;
+}

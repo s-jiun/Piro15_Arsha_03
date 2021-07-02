@@ -1,13 +1,11 @@
 ## **3조 팀프로젝트! Arsha 클론코딩** 😀
-- Html / CSS 를 이용한 Arsha 페이지 전체 클론 코딩 !!
+- Html / CSS 를 이용한 Arsha 페이지 전체 클론 코딩 !!!
 
-
-
-### 팀원🙋‍♀️
-
+<img src="images/arsha.png" width="500" height="300">
 
 <br>
 
+## **팀원**🙋‍♀️
 - 김승주 [😀](https://github.com/SeungJooKim)
 - 김건웅 [😀](https://github.com/woong7)
 - 석상언 [😀](https://github.com/sharpcoder312)💦💦

@@ -1,0 +1,222 @@
+.faq-section-z {
+  background-color: #f3f5fa;
+  padding: 60px;
+}
+.section-title-z {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title-z h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.section-title-z h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title-z h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title-z p {
+  margin-bottom: 0;
+}
+
+.faq-List-z ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.faq-List-z li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq-List-z .far.fa-question-circle {
+  color: #47b2e4;
+}
+
+.faq-List-z a:hover {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+.faq-List-z .collapse-z {
+  visibility: collapse;
+}
+/** check시 블록 나오는 부분 못 짜겠어요 ㅜㅜ zin**/
+.faq-list-z.fas.fa-chevron-down: ~.collapse-z {
+  visibility: visible;
+}
+
+/** 지도 section css **/
+.contact-z {
+  padding: 60px;
+}
+
+.contact-content-z {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-z {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+  display: inline-block;
+  margin-right: 27px;
+}
+#info-picture-z {
+  width: 451em;
+}
+#contact-inputUser-z {
+  width: 641em;
+}
+
+.contact-input-z {
+  width: 100%;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.contact-z .info-z i {
+  font-size: 20px;
+  color: #47b2e4;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.contact-z .info-z h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+
+.contact-z .info-z p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+
+.contact-z .info-z p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-z img {
+  position: relative;
+  height: 289px;
+  width: 393px;
+  padding: 0px;
+  border-width: 0px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.contact-input-z {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input-z .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.contact-input-z .row .row-form-z {
+  width: 50%;
+}
+#contact-Name {
+  margin-right: 20px;
+}
+
+#contact-Email {
+  margin-left: 20px;
+}
+.contact-input-z label {
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contact-input-z button[type="submit"] {
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: 178.88px;
+  height: 48px;
+}
+.form-group-z {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+.text-center-z {
+  text-align: center !important;
+}
