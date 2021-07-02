@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARSHA</title>
-    <link rel="stylesheet" href="./index-c.css">
-    <link rel="stylesheet" href="./style-b.css">
-    <link rel="stylesheet" href="./style-w.css">
-    <link rel="stylesheet" href="./style-sj.css">
-    <link rel="stylesheet" href="./style-z.css">
-    <link rel="stylesheet" href="./footer-j.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index-c.css">
+    <link rel="stylesheet" href="./css/style-b.css">
+    <link rel="stylesheet" href="./css/style-w.css">
+    <link rel="stylesheet" href="./css/style-sj.css">
+    <link rel="stylesheet" href="./css/style-z.css">
+    <link rel="stylesheet" href="./css/footer-j.css">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="./images/bootstrap-logo.png" />
@@ -61,7 +62,6 @@
     </header>
     <!-- 이 부분은 현재 웹페이지 상에 iframe으로 설정되어 있음 -->
     <!-- better solution ~~ -->
-    <section> 
         <div class= "header-c">
             <div class= "header-in-c">
                 <h1>
@@ -141,56 +141,39 @@
                 <span>Watch Video</span>
             </a>
         </div>
+
         <main>
-        <section id ="main-c">
             <!-- myob belimo lifegroups.. -->
-            <div>
-                <ul>
-                    <li>
-                        <img src = "./images/client-1.png" alt = "" text = "myob"/>
-                    </li>
-                    <li>
-                        <img src = "./images/client-2.png" alt = "" text = "myob"/>
-                    </li>
-                    <li>
-                        <img src = "./images/client-3.png" alt = "" text = "myob"/>
-                    </li>
-                    <li>
-                        <img src = "./images/client-4.png" alt = "" text = "myob"/>
-                    </li>
-                    <li>
-                        <img src = "./images/client-5.png" alt = "" text = "myob"/>
-                    </li>
-                    <li>
-                        <img src = "./images/client-6.png" alt = "" text = "myob"/>
-                    </li>
-                </ul>
-            </div>
-            <!-- 이곳부터 aboutus 시작 -->
-            <div id= "about-us-c">
-                <div>
-                    <div class = "aboutus-title-c">
-                        <h2>"About Us"</h2>
-                    </div>
-                    <div class = "aboutus-low-c">
-                        <div>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br/></span>
-                            <span>labore et dolore magna aliqua."</span>
-                            <ul>
-                                <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>" Ullamco laboris nisi ut aliquip ex ea commodo consequat"</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>"Duis aute irure dolor in reprehenderit in voluptate velit"</span>
-                                </li>
-                                <li>
-                                    <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                                    <span>" Ullamco laboris nisi ut aliquip ex ea commodo consequat"</span>
-                                    
-                                </li>
-                            </ul>
+            <section class="client logo section">
+                <div class= "container">
+                    <ul>
+                        <li>
+                            <img src = "./images/client-1.png" alt = "" text = "myob"/>
+                        </li>
+                        <li>
+                            <img src = "./images/client-2.png" alt = "" text = "myob"/>
+                        </li>
+                        <li>
+                            <img src = "./images/client-3.png" alt = "" text = "myob"/>
+                        </li>
+                        <li>
+                            <img src = "./images/client-4.png" alt = "" text = "myob"/>
+                        </li>
+                        <li>
+                            <img src = "./images/client-5.png" alt = "" text = "myob"/>
+                        </li>
+                        <li>
+                            <img src = "./images/client-6.png" alt = "" text = "myob"/>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+                <!-- 이곳부터 aboutus 시작 -->
+            <section>
+                <div id= "about-us", class="container">
+                    <div>
+                        <div class = "aboutus-title-c">
+                            <h2>"About Us"</h2>
                         </div>
                         <div>
                             <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br/></span>
@@ -201,10 +184,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         
-    </section>
 
     <section id="why-us">
         <div class="container-b">
@@ -356,7 +337,7 @@
 
     <section id="portfolio-w">
         <h2>PORTFOLIO</h2>
-        <div class="container-w">
+        <div class="container">
             <p style="color:#888;">
                 Magnam dolores commodi suscipit. Necessitatibus eius 
                 consequatur ex aliquid fuga eum quidem. Sit sint consectetur 
@@ -391,7 +372,7 @@
 
     <section id="team-s">
         <h2>TEAM</h2>
-        <div class="container-s">
+        <div class="container">
             <p>
                 Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                 consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui <br>impedit suscipit alias ea. Quia
@@ -470,7 +451,7 @@
         <h2>PRICING</h2>
 
 
-        <div class="container-s">
+        <div class="container">
 
 
             <p>
@@ -493,7 +474,7 @@
     </section>
 
     <section id="faq-z" class="faq section-z">
-        <div class="container-z">
+        <div class="container">
             <div class="section title-z"></div>
             <h2>Frequently Asked Questions</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
@@ -583,7 +564,7 @@
     </section>
     <!--지도부분 section main 끝단-->
     <section id="contact-z" class="contact-z">
-        <div>
+        <div class="container">
             <div class="section-title-z">
                 <h2>Contact</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
@@ -654,7 +635,7 @@
 
     <footer>
         <div class="newsletter-j">
-            <div class="container1-j">
+            <div class="container">
                 <div class="email-box-j">
                     <h4>Join Our Newsletter</h4>
                     <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
