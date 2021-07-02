@@ -73,6 +73,10 @@ a {
   color: #37517e;
 }
 
+.newsletter-j form {
+  width: 100px;
+}
+
 .email-box-j input[type="email"] {
   border: 0;
   padding: 4px 8px;
@@ -194,9 +198,24 @@ nav li {
   display: inline-block;
 }
 
-nav .hover-test:hover span:first-child{  
-  
-  background-color: red;  
+nav li:first-child:hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(2):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(3):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:nth-child(4):hover span:first-child {
+  background-color: #209dd8;
+}
+
+nav li:last-child:hover span:first-child {
+  background-color: #209dd8;
 
 }
 
@@ -214,6 +233,7 @@ nav li:first-child span:first-child {
   text-align: center;
   width: 36px;
   height: 36px;
+  transition: 0.3s;
 }
 
 nav li:nth-child(2) span:first-child {
